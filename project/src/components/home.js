@@ -61,26 +61,28 @@ export function Second() {
         <div className="container-fluid">
             <div className="container py-5">
 
-                <div className="row gap-4 d-flex flex-row justify-content-center">
+                <div className="row d-flex flex-row justify-content-center">
                     <div className="text-center heroTitle"><h2>Ingredient extraction demo</h2>
                         <h4 className="subTitle">Enter Your Own Text or Pick a real product in Our Examples</h4>
                     </div>
                     <div className="col-lg-4 rounded-2 p-4 productCardSelect">
-                        <div className="d-flex gap-3">
-                            <div className="d-flex justify-content-center align-items-center">
-                                <img src={product1} alt="product1" className="productDisplay" />
-                            </div>
-                            <div>
-                                <h5 className="cardTitle">Nature Made Multivitamin Tablets</h5>
-                                <div className="d-flex justify-content-between">
+                        <div >
+                            <div className="d-flex gap-3">
+                                <div className="d-flex justify-content-center align-items-center">
+                                    <img src={product1} alt="product1" className="productDisplay" />
+                                </div>
+                                <div>
+                                    <h5 className="cardTitle">Nature Made Multivitamin Tablets</h5>
+                                    <div className="d-flex justify-content-between">
 
-                                    <div className="d-flex flex-column">
-                                        <span>From</span>
-                                        <img src={amazon} alt="amzlogo" />
-                                    </div>
+                                        <div className="d-flex flex-column">
+                                            <span>From</span>
+                                            <img src={amazon} alt="amzlogo" />
+                                        </div>
 
-                                    <div className="d-flex  align-items-end">
-                                        <button className="buttonStyle"><FontAwesomeIcon icon={faCopy} /> Use String</button>
+                                        <div className="d-flex  align-items-end">
+                                            <button className="buttonStyle"><FontAwesomeIcon icon={faCopy} /> Use String</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -130,7 +132,7 @@ export function Second() {
                     </div>
 
                     <div className="d-flex justify-content-center gap-4">
-                        <textarea rows="6" cols="120" id="textArea">
+                        <textarea rows="4" cols="120" id="textArea">
                             "Cellulose Gel, Corn Starch, Maltodextrin, Croscarmellose Sodium, Hypromellose, Silicon Dioxide, Magnesium Stearate, Gelatin, and Polyethylene Glycol. Niacin, Vitamin B6, Folic Acid, Vitamin B12, Biotin (B7), Pantothenic Acid, Vitamin A, Vitamin C, Vitamin D3, Vitamin E"
                         </textarea>
                         <div className="d-flex flex-column align-items-start gap-2">
